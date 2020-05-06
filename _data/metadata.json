@@ -1,0 +1,15 @@
+{
+  "title": "Some Notes",
+  "url": "https://capybar.github.io/blog/",
+  "description": "Unfettered from grammer, spaghettied together notes",
+  "feed": {
+    "subtitle": "sloppy stuff",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://capybar.github.io/blog/"
+  },
+  "author": {
+    "name": "Your Name Here",
+    "email": "youremailaddress@example.com"
+  }
+}

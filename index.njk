@@ -1,0 +1,13 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+<div class="description">
+This is a site to get more comfortable with Github (from the command line on my own computer wow) and take notes quickly
+</div>
+<h1 class="lead">Hot Takes</h1>
+{% set postslist = collections.posts | head(-5) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}

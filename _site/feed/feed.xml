@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Some Notes</title>
+	<subtitle>sloppy stuff</subtitle>
+	
+	<link href="https://capybar.github.io/feed/feed.xml" rel="self"/>
+	<link href="https://capybar.github.io/blog/"/>
+	<updated>2020-05-03T20:00:00-04:00</updated>
+	<id>https://capybar.github.io/blog/</id>
+	<author>
+		<name>Your Name Here</name>
+		<email>youremailaddress@example.com</email>
+	</author>
+	
+	<entry>
+		<title>Adventure Time</title>
+		<link href="https://capybar.github.io/posts/2020-05-03-Adventure-Time/"/>
+		<updated>2020-05-02T20:00:00-04:00</updated>
+		<id>https://capybar.github.io/posts/2020-05-03-Adventure-Time/</id>
+		<content type="html">&lt;p&gt;I love Tumblr, I really do but I think I let the ease of producing stop me from moving forward. The community is fun and I still plan to stick around making themes here or there but it&#39;s finally time to branch out.&lt;/p&gt;
+&lt;p&gt;Right now I&#39;m currently writing my posts in &lt;a href=&quot;https://typora.io/&quot;&gt;Typora&lt;/a&gt; in mark down  and man it&#39;s bringing me back to the days of &lt;a href=&quot;https://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; which is actually pretty funny because this text editor supports &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Writing is actually fun! I know I post nonsense on Twitter and Tumblr but this blog let&#39;s me post learning nonsense in longform. I am excited to press on with learning front end and actually documenting my experience. The best part? I own the data on this here computer and can write OFF LINE!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Setting Up Eleventy</title>
+		<link href="https://capybar.github.io/posts/firstpost/"/>
+		<updated>2020-05-03T20:00:00-04:00</updated>
+		<id>https://capybar.github.io/posts/firstpost/</id>
+		<content type="html">&lt;p&gt;I&#39;m an avid user of Tumblr. I love Tumblr. I love the functionality and how quick it is to make a theme. I love the theme developing community BUT I don&#39;t like the writing experience. It&#39;s good for long notes however what if I want to post crap? And I always want to post crap!&lt;/p&gt;
+&lt;p&gt;My first foray with Static Site Generators was with Jekyll but I found it difficult to set up. Gems? What and why do I need that? Making a theme for Jekyll is kind of a hassle. Also at the time, Jekyll was not easy to use for a Windows person like me.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.11ty.dev/&quot;&gt;llty&lt;/a&gt; is very easy and quick to install. Here&#39;s a guide to how I set it up. This is not the best guide or the best way to do things but ya know, we&#39;re all learning and having fun.&lt;/p&gt;
+&lt;h2 id=&quot;pre-install&quot;&gt;Pre-install &lt;a class=&quot;direct-link&quot; href=&quot;#pre-install&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before doing anything, stop and &lt;a href=&quot;https://learntocodewith.me/getting-started/topics/command-line/&quot;&gt;learn a bit&lt;/a&gt; about the command line. &lt;a href=&quot;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&quot;&gt;Install Git&lt;/a&gt; and watch + work out the git tutorial from &lt;a href=&quot;https://www.youtube.com/watch?v=SWYqp7iY_Tc&quot;&gt;Traversy Media&#39;s Youtube video&lt;/a&gt; . I do everything from Microsoft&#39;s Command Line and I don&#39;t use the git command line. Next you&#39;ll want to install NPM using the command line. Follow the instructions &lt;a href=&quot;https://phoenixnap.com/kb/install-node-js-npm-on-windows&quot;&gt;for Windows&lt;/a&gt; very carefully.&lt;/p&gt;
+&lt;p&gt;I was a noob and didn&#39;t know what global versus local meant. Local means in a specific folder so only that folder can use what you install. Global means in some designated place that every folder has access to. If you&#39;re coming from Tumbrl, also know that directory means folder.&lt;/p&gt;
+&lt;h2 id=&quot;install-time!!&quot;&gt;Install Time!! &lt;a class=&quot;direct-link&quot; href=&quot;#install-time!!&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;If you are ever stuck, stop and look up the terms you don&#39;t understand!&lt;/em&gt; You don&#39;t need to know everything. You just need to know enough. I didn&#39;t know what liquid format was or njk and I&#39;m still not sure about JSON. &lt;a href=&quot;https://shopify.github.io/liquid/basics/introduction/&quot;&gt;Liquid template language&lt;/a&gt; is very similar to Tumblr&#39;s {block} structures.&lt;/p&gt;
+&lt;p&gt;Create a folder named &lt;em&gt;blog&lt;/em&gt; . I made this folder in my documents folder but it doesn&#39;t really matter where you make it.&lt;/p&gt;
+&lt;p&gt;Now hover over that folder, hold the cmd button and right click. Click &amp;quot;copy path&amp;quot;. Another easier way to get the location of the folder is by dropping the folder in your internet browser and copying it from there.&lt;/p&gt;
+&lt;p&gt;In the command line type cd and right click paste the location of your blog. Now type &lt;code&gt;npm --version&lt;/code&gt; to make sure you have npm 8 or higher. NPM by the way stands for Node Package Manager. If you do feel free to continue on.&lt;/p&gt;
+&lt;p&gt;Install 11ty by typing &lt;code&gt;npm install -g @11ty/eleventy&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/11ty/eleventy-base-blog&quot;&gt;Clone the 11ty base blog&lt;/a&gt; by clicking the &amp;quot;clone or download&amp;quot; button at that link. Cloning basically means to copy. What I actually did was individually copied the files and folders one at a time and put them in the blog folder because I didn&#39;t really know how cloning worked.&lt;/p&gt;
+&lt;p&gt;Back to the command line you&#39;re  going to need to install a few plugins by copy pasting and pressing enter for these:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm install @11ty/eleventy-plugin-rss
+npm install @11ty/eleventy-plugin-syntaxhighlight
+npm install @11ty/eleventy-navigation
+npm install markdown-it
+npm install markdown-it-anchor
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In your blog folder, look for a file named .eleventy.js. Open it in any old text editor and paste this in it:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; eleventyConfig.addPassthroughCopy(&#39;css&#39;)
+  return {
+    passthroughFileCopy: true
+  }// rest of .eleventy.js config
+};
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now back in the command line, type &lt;code&gt;eleventy --serve&lt;/code&gt; this will serve your website. Go to &lt;a href=&quot;http://localhost:8080/&quot;&gt;http://localhost:8080/&lt;/a&gt; and you should be able to see your site. If not that means something wrong happened. Maybe the instructions I gave were terrible.  In that case &lt;a href=&quot;https://www.filamentgroup.com/lab/build-a-blog/&quot;&gt;go here&lt;/a&gt;. Wish I&#39;d discovered this post earlier. Oh well.&lt;/p&gt;
+</content>
+	</entry>
+</feed>
