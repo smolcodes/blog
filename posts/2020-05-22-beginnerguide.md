@@ -3,7 +3,7 @@ title: Making CSS Art
 description: 
 date: 2020-05-11
 tags:
-  ['freecodecamp']
+  ['css art']
 layout: layouts/post.njk
 ---
 
