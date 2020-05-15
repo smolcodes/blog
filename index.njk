@@ -4,10 +4,38 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-<div class="description">
-This is a site to get more comfortable with Github (from the command line on my own computer wow) and take notes quickly
-</div>
-<h1 class="lead">Hot Takes</h1>
+<header id="type">
+  <h1>Hello World 👋</h1>
+  <p>I'm Rachel 🐝🐝-a front end web designer from Upstate New York. View my work below.</p>
+</header>
+  <h2 id="work"><span>Work</span></h2>
+  <section id="content">
+    <div class="item">
+      <img src="https://66.media.tumblr.com/themes/screenshots/1qcxhfz/16f8f655f61528aebbfd0fe93c6aa2e9.png">
+      <header><a href="https://smolthemes.tumblr.com/">Tumblr Themes</a></header>
+    </div>
+     <div class="item">
+       <img src="https://66.media.tumblr.com/968b8ed04a40ebfef43c4f3552bf1277/e165adfd2dc5cd78-3f/s1280x1920/363e43cfc7ccc898d3af5f8a400e69460d64cf1e.png">
+       <header><a href="https://codepen.io/smolcodes">Free Code Camp Projects</a></header>
+    </div>
+  </section>
+   <h2><span>Skills</span></h2>
+  <section id="skills">
+    <ul>
+      <header>Web</header>
+      <li>HTML5</li>
+      <li>CSS3</li>
+    </ul>
+    <ul><header>Front End Frameworks</header>
+      <li>Zurb Foundation</li>
+      <li>Bulma</li>
+    </ul>
+    <ul><header>Learning</header>
+      <li>11ty</li>
+      <li>Git & Github</li>
+    </ul>
+  </section>
+ <h2 id="posts"><span>Recent Posts</span></h2>
 {% set postslist = collections.posts | head(-5) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
