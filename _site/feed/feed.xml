@@ -5,12 +5,93 @@
 	
 	<link href="https://capybar.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://capybar.github.io/blog/"/>
-	<updated>2020-05-10T20:00:00-04:00</updated>
+	<updated>2020-05-14T20:00:00-04:00</updated>
 	<id>https://capybar.github.io/blog/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Todo List Saves The Day</title>
+		<link href="https://capybar.github.io/posts/2020-04-23-Todo-List/"/>
+		<updated>2020-05-02T20:00:00-04:00</updated>
+		<id>https://capybar.github.io/posts/2020-04-23-Todo-List/</id>
+		<content type="html">&lt;p&gt;Week three of the virus and I&#39;ve caved to the todo list. I don&#39;t like using them because there&#39;s a huge stupid part of me that thinks I&#39;m above using them. As if using is proof of my incompetence. The best part of a todo list is how it forces me to stop focusing on things I can&#39;t control and that has worked more wonders than walking, yoga and slowly drinking coffee combined.&lt;/p&gt;
+&lt;p&gt;From reading and talking to other people, I can see my feelings of guilt  are not unique (God I want this to be over but also how privelaged am I to have catastrophe pay, to live in a decent sized apartment with roommates and cats, to live in a non dense area that gives me permission to take walks, to have internet, books, games?). And also neither is my lack of knowledge.&lt;/p&gt;
+&lt;p&gt;Every day, we are learning more and more about this virus. Almost overnight, previous assumptions are proven false. Having an opinion on this seems silly.  It&#39;s best to leave this to the professionals. But like spectators following a sport, it&#39;s hard not to follow the numbers and catch patterns and try to predict what will happen.&lt;br&gt;
+[[MORE]]&lt;/p&gt;
+&lt;h2 id=&quot;summaries-thus-far&quot;&gt;Summaries thus far &lt;a class=&quot;direct-link&quot; href=&quot;#summaries-thus-far&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Learning on the Internet&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://getflywheel.com/layout/combine-flexbox-and-css-grids-for-layouts-how-to/&quot;&gt;Grid and Flexbox tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8&quot;&gt;Dark Mode Tutorial&lt;/a&gt; well, it&#39;s kind of funny how slow I am to learning variables&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Reading on the Internet&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Reading other people&#39;s experiences is calming. Also I desperately miss Old School blogging. And I&#39;m glad it is still alive and kicking&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://botanhical.com/&quot;&gt;Anh&#39;s Blog&lt;/a&gt; She inspired me to try to blog more frequently. Even if it&#39;s about nothing. This post is basically nothing.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.kooslooijesteijn.net/journal-newest-first&quot;&gt;Koos&#39; Covid  Journal&lt;/a&gt; I    find these posts validating especially because his posts start at about the time covid started effecting me (March 14).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://email.aliabdaal.com/&quot;&gt;Ali Abdaal News Letter&lt;/a&gt; I hate subscribing to news letters mainly because I hate looking at my e-mail. Most mail I get is nonsense and so being the inefficent bum that I am, I put news letters I like in a blog post (such as this one).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tatianamac.com/writing&quot;&gt;Tatiana Mac&#39;s Writing&lt;/a&gt; Her writing style is jam packed with personality. Reminds me of reading Vonnegut. Everything&#39;s been reminding me of him lately.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Speaking of which:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reading off the Internet&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Finished Breakfast of Champions: Good, short book. He has a welcoming dark way of writing. I wonder if this book brought any meaningful discussion about race. I grew up in upstate New York and I read To Kill a Mockingbird etc but I don&#39;t know how to put it into words, we read books in a way that didn&#39;t make us feel uncomfortable we didn&#39;t really talk about the substance of the books. Vonnegut&#39;s is an interesting read because he is aware but his characters don&#39;t do much and maybe that&#39;s his point?&lt;/p&gt;
+&lt;p&gt;Interesting also is Dwayne Hoover&#39;s conclusion that people are machines. I&#39;ve been bothered for a while about a drive for machine like precision from people. I&#39;m going to put this thought on the back burner until I can better clearly explain what I mean and what I fear.&lt;/p&gt;
+&lt;p&gt;I started reading Tin Drum. That&#39;s it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Played&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Journey: it&#39;s a calming puzzle solving game with an incredible sound&lt;br&gt;
+track&lt;/li&gt;
+&lt;li&gt;Manifold Garden: I didn&#39;t finish. I eventually got bored. The&lt;br&gt;
+novelness of a geometric world kind of wears off quickly&lt;/li&gt;
+&lt;li&gt;Assemble with Care: Also did not finish because Apple&#39;s free trial&lt;br&gt;
+ended. I loved Monument Valley so much and that is the only reason I&lt;br&gt;
+tried this game.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Reading Quite A Lot</title>
+		<link href="https://capybar.github.io/posts/2020-04-30-Reading/"/>
+		<updated>2020-05-02T20:00:00-04:00</updated>
+		<id>https://capybar.github.io/posts/2020-04-30-Reading/</id>
+		<content type="html">&lt;p&gt;I miss drinking a good latte and sitting in a library. I can’t stand being in the same place. I also miss work. I miss specifically making drinks. Maybe one day I’ll be in a spot where I do the drink making stuff once a week but the coding/designing stuff most of the time.&lt;/p&gt;
+&lt;p&gt;This week I started to get into the groove of things. I try to do yoga every day, walk outside everyday.The problem with blogging is it is restrictive by its public nature. Sorry this is disjointed. I&#39;m slowly wanting to pick up Java again. Right when quarantine is almost over.&lt;/p&gt;
+&lt;p&gt;I didn’t write more java posts because writing tutorials are really difficult. I try to think of these tutorials as notes to past me. But current me reads them and thinks “Why are they so disjointed? So disconnected?”. I’m left more lost than before. So I’m going to start off a bit easier and write very basic HTML and CSS tutorials. &lt;br&gt;
+[[MORE]]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reading on the Web&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://capybar.github.io/posts/2020-04-30-Reading/%5Bhttp://jessicahische.is/thinkingthoughts%5D(http://jessicahische.is/thinkingthoughts)&quot;&gt;Jessica Hische&#39;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://capybar.github.io/posts/2020-04-30-Reading/%5Bhttps://fangya18.com/category/data-science/python/%5D(https://fangya18.com/category/data-science/python/)&quot;&gt;Fang Ya Python Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://eyana.me/&quot;&gt;Eyana Mallari&#39;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://happyturtlethings.net/exercise-against-depression/&quot;&gt;Importance of Excersizing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://undermywhitecoat.com/&quot;&gt;Under My White Coat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Learning on the Web&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/jquery/default.asp&quot;&gt;JQUery&lt;/a&gt; I know, it&#39;a about time&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8&quot;&gt;Ananya Neogi Dark Mode Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/29720318/remembering-a-users-button-press&quot;&gt;Dark Mode StackOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode&quot;&gt;Andy Clark Dark Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://markdotto.com/2018/11/05/css-dark-mode/&quot;&gt;MDO CSS Dark Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/css/css3_variables.asp&quot;&gt;W3&#39;s Understanding Variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.w3.org/TR/low-vision-needs/#introduction&quot;&gt;Guide to the Web for Visually Impaired&lt;/a&gt; This is of particular importance to me because I am legally blind.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Watching&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Evita in Spanish. I rewatched Pan&#39;s Labyrinth and suddenly want to dust off my high school Spanish.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Learning Off the Web&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spanish (sort of). This is mainly through listening to Evita in Spanish and that&#39;s it&lt;/li&gt;
+&lt;li&gt;French. Picked up Duolingo again and am watching a ton of French book vloggers.&lt;/li&gt;
+&lt;li&gt;Video editing. This is kind of on/off the web. I&#39;m trying out different filming and sounds with a Google Pixel. Exporting videos from the phone is an absolute pain.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Adventure Time</title>
@@ -188,6 +269,87 @@ npm install markdown-it-anchor
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;​&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Life So Far</title>
+		<link href="https://capybar.github.io/posts/2020-05-15-Where/"/>
+		<updated>2020-05-14T20:00:00-04:00</updated>
+		<id>https://capybar.github.io/posts/2020-05-15-Where/</id>
+		<content type="html">&lt;p&gt;I haven&#39;t written a pandemic update in a while. These posts -although useless - are pretty cathartic. Starting last week I started to pick up my mood again all though it is always at the cusp of falling. I know why. I find my worrying goes against the consensus. I considered not writing these anymore but I decided to continue 100% because &lt;a href=&quot;https://www.kooslooijesteijn.net/journal-newest-first&quot;&gt;Koos&#39; pandemic journal&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This journal is here anyway, because these are tough times to many. We’re more alone than ever. And maybe something I share in here will be useful to you.&lt;/p&gt;
+&lt;p&gt;koos&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It is comforting to know, somewhere in Germany, someone is also going through similar feelings as I.&lt;/p&gt;
+&lt;p&gt;The main driver of why I put things on the internet is so I can remember who I was at any given time. I like to occasionally reach back to something from 10 years ago and see &amp;quot;ah, that&#39;s what I value. My humor sucked then, nice&amp;quot;.&lt;/p&gt;
+&lt;p&gt;I touched on this in an earlier post but part of why I wanted to get into SSGs is to own my content. I&#39;d like Tumblr to stick around but I don&#39;t believe that will be the case. Where will my content go when Tumblr is gone? This current blog is being hosted on &lt;a href=&quot;https://vercel.com/&quot;&gt;Vercel&lt;/a&gt;, however it is possible that it won&#39;t stick around but all these mark down files are in two places: github and my laptop. So the contents of my blog are safe.&lt;/p&gt;
+&lt;h2 id=&quot;connecting&quot;&gt;Connecting &lt;a class=&quot;direct-link&quot; href=&quot;#connecting&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;During this pandemic, I&#39;ve been keeping in touch with friends, family and coworkers via text and social media. It is not the same. You can&#39;t really emote through tonality. You can&#39;t really be spontaneous either. And Zoom is terrible. Video chatting is alright. The converse is also true. I read people through their voice so without tools of inference, I find we&#39;re all merely present.&lt;/p&gt;
+&lt;h2 id=&quot;what-i&#39;ve-been-up-to&quot;&gt;What I&#39;ve been up to &lt;a class=&quot;direct-link&quot; href=&quot;#what-i&#39;ve-been-up-to&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Reading on the internet&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://themargins.substack.com/archive?sort=new&quot;&gt;The Margins&lt;/a&gt; This newsletter is by far the most interesting one I&#39;ve read in a while.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://quantum.country/&quot;&gt;Quantumn Intro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://notes.andymatuschak.org/Evergreen_notes&quot;&gt;Evergreen Notes&lt;/a&gt; I think I&#39;ll stick to good ol pen and paper. This sounds a lot like very organized mind mapping&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://martinschneider.me/articles/goodbye-sapper-hello-eleventy/&quot;&gt;A Blog Post about 11ty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mxstbr.com/thoughts/css-in-js&quot;&gt;CSS in JS&lt;/a&gt; I am not convinced. Also I&#39;m only 1/4 through Gordon Zhou&#39;s JS course. Yes, I know, I should shove it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learning on the Internet&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git/tutorials/syncing/git-push&quot;&gt;Git and Version Control&lt;/a&gt; One day...&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://egghead.io/browse/frameworks/11ty&quot;&gt;Egghead 11ty&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I am learning to cook. Here&#39;s the meals thus far. I started cooking three weeks ago&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://capybar.github.io/posts/2020-05-15-Where/%5Bhttps://www.reddit.com/r/Cooking/comments/6y7dkr/recipe_how_to_make_sichuan_dan_dan_noodles_%E6%8B%85%E6%8B%85%E9%9D%A2/%5D(https://www.reddit.com/r/Cooking/comments/6y7dkr/recipe_how_to_make_sichuan_dan_dan_noodles_%E6%8B%85%E6%8B%85%E9%9D%A2/)&quot;&gt;Dan Dan Noodles&lt;/a&gt; My sister made the chili oil-which btw is time consuming. The rest of the meal was easier to do. The sauce is amazing! This is an instant favorite&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6QQ67F8y2b8&amp;amp;t=253s&quot;&gt;Bibimbap&lt;/a&gt; This isn&#39;t hard but it does take a bit of time&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=i1djfV9uigc&amp;amp;t=701s&quot;&gt;Japchae&lt;/a&gt; This is a simple noodle dish. It&#39;s a good side but I learned not a good main.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.food.com/recipe/roasted-butternut-squash-red-grapes-and-sage-147381&quot;&gt;Squash with Grapes&lt;/a&gt; It is very easy to make and very delicious&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bJUiWdM__Qw&quot;&gt;Aglio e Olio&lt;/a&gt; I didn&#39;t use the video I linked to. I used The Cook&#39;s Illustrated Cookbook. I was not a fan of this recipe. The meal wasn&#39;t flavorful enough for me.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.food.com/recipe/best-banana-bread-2886&quot;&gt;Banana Bread&lt;/a&gt; The recipe I used for this also is not the link and is from Cook&#39;s Illustrated.  Add cranberries to make the bread really pop out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reading and Learning not on the internet&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Played a few new board games
+&lt;ul&gt;
+&lt;li&gt;Evolution: I love this game. I like how interactive it is and also its quirky fun design.&lt;/li&gt;
+&lt;li&gt;7 Wonders: it&#39;s a very light Mars. It&#39;s fun and short&lt;/li&gt;
+&lt;li&gt;Wingspan: It&#39;s beautiful and all the pieces have a nice tactical feel to them, especially the eggs. But the game itself is ok&lt;/li&gt;
+&lt;li&gt;Go. This is uhh a learning journey. I don&#39;t understand it yet. I&#39;m right now only using the 9x9 board.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Braille. Braille is proving to be quite difficult. I, as a sighted person, don&#39;t cheat and look at the dots btw.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;coffee&quot;&gt;Coffee &lt;a class=&quot;direct-link&quot; href=&quot;#coffee&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Coffee gets its own section. The first week of the pandemic, I got really into making coffee. Making coffee like any other hobby goes on a scale of  being very affordable to being ... uh, expensive  Luckily most tools you need to make different good cups of coffee are tools you can use for other things.&lt;/p&gt;
+&lt;p&gt;The basics are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A scale. They are about 12$&lt;/li&gt;
+&lt;li&gt;A coffee grinder. I bought mine from a grocery store for 20$. It has the essential settings: fine, medium and coarse.&lt;/li&gt;
+&lt;li&gt;A water heater. These are around 14$-20$. Don&#39;t go too cheap on this though. Some of the very cheap ones have plastic that flakes off on the inside..which is just...weird.&lt;/li&gt;
+&lt;li&gt;Some sort of funnel and some sort of filter. I have before used a sift and paper towels before. The coffee btw while not great was still much better than a corner store&#39;s.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Different coffee equipment I own.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Starbucks silicon pourover set: The funnel on top of a mug is great. Don&#39;t use the actual glass container though. It&#39;s too big for the funnel&lt;/li&gt;
+&lt;li&gt;Chemex. This is the best coffee machine I have ever gotten. The hour glass shape makes a huge difference in trapping in the heat. Don&#39;t make the mistake I made of using a fabric filter. It is better for the environment but impossible to clean. Go for a metal mesh filter.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.bedbathandbeyond.com/store/product/bialetti-moka-express-reg-6-cup-model-6800-stovetop-espresso-maker/1010182115?skuId=10182115&amp;amp;mcid=PS_googlepla&quot;&gt;Moka pot&lt;/a&gt; . My goal is to master making moka pot coffee before the pandemic is over. Moka pots are a weird relic of the mid 1900s and apparently they&#39;re still floating all over Italy. My moka pot is pretty old. I think it used to be my grandmother&#39;s? Sure you can buy them online for 15$ but you could probably just as easily and cheaply purchase one from a garage sale. Be warned: moka coffee is somewhere between a shot of espresso and a cup of coffee.&lt;/li&gt;
+&lt;li&gt;Aeropress I used this once. And I think I might start up using it again.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Coffees I&#39;ve made&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dalgona 3 ways:
+&lt;ul&gt;
+&lt;li&gt;With Nestle Instant Coffee: This was by far the easiest decent tasting way&lt;/li&gt;
+&lt;li&gt;With pourover coffee: You need to double the sugar to make up for the lack of instant coffee in order to foam the coffee&lt;/li&gt;
+&lt;li&gt;With moka coffee: This was a complete failure. The problem is it is best done with a hand mixer-not a whisk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Moka pot coffee: it is a very finicky kind of machine. Using hot water to start is better than cold water. I haven&#39;t figured out how to make it  without a hint of burntness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To future me: don&#39;t look at this a year from now and think &amp;quot;I&#39;m not in a pandemic and I accomplished so much more when I was&amp;quot;. You had a ton of days where you did nothing but panic stare at your phone. And most days you merely existed. To me four days from now try not to burden yourself with &amp;quot;making the most of it and being productive AF&amp;quot;.You know this post is a summary of the past two months. You know you didn&#39;t do that much but maybe that&#39;s okay.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
