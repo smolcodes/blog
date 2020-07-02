@@ -5,7 +5,7 @@
 	
 	<link href="https://capybar.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://capybar.github.io/blog/"/>
-	<updated>2020-05-14T20:00:00-04:00</updated>
+	<updated>2020-07-01T20:00:00-04:00</updated>
 	<id>https://capybar.github.io/blog/</id>
 	<author>
 		<name>Your Name Here</name>
@@ -350,6 +350,96 @@ npm install markdown-it-anchor
 &lt;li&gt;Moka pot coffee: it is a very finicky kind of machine. Using hot water to start is better than cold water. I haven&#39;t figured out how to make it  without a hint of burntness.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;To future me: don&#39;t look at this a year from now and think &amp;quot;I&#39;m not in a pandemic and I accomplished so much more when I was&amp;quot;. You had a ton of days where you did nothing but panic stare at your phone. And most days you merely existed. To me four days from now try not to burden yourself with &amp;quot;making the most of it and being productive AF&amp;quot;.You know this post is a summary of the past two months. You know you didn&#39;t do that much but maybe that&#39;s okay.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Accessibility and Running</title>
+		<link href="https://capybar.github.io/posts/2020-06-18-accessibility/"/>
+		<updated>2020-06-17T20:00:00-04:00</updated>
+		<id>https://capybar.github.io/posts/2020-06-18-accessibility/</id>
+		<content type="html">&lt;h2 id=&quot;accessibility&quot;&gt;Accessibility &lt;a class=&quot;direct-link&quot; href=&quot;#accessibility&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I wrote &lt;a href=&quot;https://smolthemes.tumblr.com/post/621203945867673600/base-theme-overhaul&quot;&gt;extensively&lt;/a&gt; about a desire to make an accessible, and modular base tumblr theme. Not surprisingly there&#39;s more to accessibility than merely the way it looks. Here&#39;s some readings from this week:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.sarasoueidan.com/blog/&quot;&gt;Sara Soueidon&#39;s Blog&lt;/a&gt; Her blog has so much to offer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jerryjones.dev/2020/04/20/the-importance-of-html/&quot;&gt;Jerry Jones&#39; Post on Semantic HTML&lt;/a&gt; The information on h1, h2, and h3 were super valuable as I didn&#39;t really know the difference in usage for the three&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://css-tricks.com/accessible-svgs/&quot;&gt;CSS Trick&#39;s Guide to Accessible SVGs&lt;/a&gt; The important takeaway is always have context. It is better to describe what an icon represents than what it&#39;s an image of. In my case, better to say &lt;i&gt;click to like&lt;/i&gt; than &lt;i&gt;heart&lt;/i&gt; .&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.matuzo.at/&quot;&gt;Matuzo&#39;s Blog&lt;/a&gt; It&#39;s very nice looking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marcysutton.com/writing/&quot;&gt;Marcy Sutton&#39;s Articles&lt;/a&gt; I find the blog titles pretty difficult to read but I enjoy the articles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When I was younger (and by this I mean two years ago) I used to hate being pigeon holed as being disabled but now I see, the web design community needs more of us to speak louder. Anyway here&#39;s a chance for me to rant about issues I&#39;ve seen &lt;i&gt;from the accessibility community&lt;/i&gt;. I&#39;m not linking to specific people because that&#39;s not what I&#39;m about&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Icons without descriptions being used as links in menus. I hate seeing random icons like a smiley face that&#39;s supposed to be About, but you can&#39;t know that unless you click.&lt;/li&gt;
+&lt;li&gt;Colorful shapes like circles or squares used as links. Dots are not intuitive. How am I supposed to know they are links?&lt;/li&gt;
+&lt;li&gt;Styling to the point of making a web site unreadable&lt;/li&gt;
+&lt;li&gt;Copy editing that&#39;s used for SEO but otherwise is superfluous.  You might be wondering how this is related to accessibility. It makes getting to pertinent information difficult.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On a positive note, I love seeing blogs use larger fonts and that more blogs are having the body text actually be contrasting. Also I love seeing non white back grounds. Jerry Jones&#39; light blue is very easy on the eyes.&lt;/p&gt;
+&lt;h2 id=&quot;running-and-reading&quot;&gt;Running and Reading &lt;a class=&quot;direct-link&quot; href=&quot;#running-and-reading&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I am currently obsessed with &lt;a href=&quot;https://www.julian.com/&quot;&gt;Julian Shapiro&#39;s blog&lt;/a&gt;. I am working through his work out routine for building muscle so I may one day lift a cast iron pan without wimping out. Also, I&#39;m reading his &lt;a href=&quot;https://www.julian.com/guide/write/intro&quot;&gt;post on writing better&lt;/a&gt;. As an aside I love &lt;a href=&quot;http://fakenous.net/&quot;&gt;Michael Huemer&#39;s&lt;/a&gt; writing although I rarely agree with his opinions (this is because I&#39;m an arm chair philosopher-also known as a fake). I&#39;d like to, in the same vain as Shapiro, write guides. More so as a means to get better at writing. What he stated is true:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Becoming a better writer makes you a better all-around thinker. You learn to communicate more clearly and more persuasively.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A digression: An aspect of Shapiro&#39;s writings that I&#39;m not a particular fan of is this need for power, prestige and fame. He mentions this in every single guide and that&#39;s just not something I really care about. I don&#39;t want to assess my friendships based on the values they bring to my future self.&lt;/p&gt;
+&lt;p&gt;Anyway, I want to write a short guide on how to run 3 miles (5 kilometers) if you are absolutely out of shape and also a guide on decreasing coffee consumption.&lt;/p&gt;
+&lt;h2 id=&quot;this-blog&quot;&gt;This Blog &lt;a class=&quot;direct-link&quot; href=&quot;#this-blog&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I need to get back on learning about 11ty. I currently &lt;a href=&quot;https://capybar.tumblr.com/&quot;&gt;write java notes&lt;/a&gt; on Tumblr but need to figure out how to make a specific tags collection page so I can migrate my note taking to here, my personal site.&lt;/p&gt;
+&lt;p&gt;You might be asking, why not leave it where it is? Well I probably will try to put the content on both blogs. But I&#39;m also lazy so until I learn how to create a script that will automatically post to Tumblr from this blog, that probably won&#39;t happen.&lt;/p&gt;
+&lt;p&gt;I want to add a &lt;a href=&quot;https://darekkay.com/blog/static-site-comments/&quot;&gt;comment section&lt;/a&gt; to this blog. All my Tumblr blogs used Disqus for comments and my blogs rarely get comments. Given that Github hosted blogging doesn&#39;t have community sharing like Tumblr does, this would probably mean even &lt;i&gt;less&lt;/i&gt; comments. Realistically my low volume blog doesn&#39;t need a comment section, but I don&#39;t know, &lt;a href=&quot;https://blog.codinghorror.com/a-blog-without-comments-is-not-a-blog/&quot;&gt;is a blog a blog&lt;/a&gt; if it doesn&#39;t have one?&lt;/p&gt;
+&lt;p&gt;I might use webmentions although it seems like it requires work.&lt;/p&gt;
+&lt;h2 id=&quot;animorphs-and-flatland&quot;&gt;Animorphs and Flatland &lt;a class=&quot;direct-link&quot; href=&quot;#animorphs-and-flatland&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve started to read Animorphs again. I read &lt;a href=&quot;https://en.wikipedia.org/wiki/Visser_(novel)&quot;&gt;Visser&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Andalite_Chronicles&quot;&gt;The Andalite Chronicles&lt;/a&gt; . While the series is still good, it doesn&#39;t hit the same way it did when I was 13. As an adult, I want more world building. This is something you can&#39;t really do in 125 page books. The idea that wars cannot be won, they can only be lived through is reiterated constantly in these two books. Young me needed this and the ideas of conflict/resolution, of war, of upholding our sense of morality and constantly questioning the systems we&#39;re in plus most importantly understanding how all systems are complex (there is no good vs evil, everything is on a multidimensional scale) lay the foundation of how I see the world today. Adult me found these thought experiments...repetitive and expected. But, what would you expect after reading 20+ books of the same series?&lt;/p&gt;
+&lt;p&gt;Flatland is a great book. How would you, a person in a 3d world, prove to a 2d person, that there exists a higher dimension? I love the part where the square yells at the sphere to see its inner guts.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Grant me but one glimpse of thine interior. [...] I in Thought shall see the insides of all solid things&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The first 40 pages is grueling but man, the last 15 pages are so fun!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Learning 11ty from Scratch</title>
+		<link href="https://capybar.github.io/posts/2020-06-26-11ty/"/>
+		<updated>2020-07-01T20:00:00-04:00</updated>
+		<id>https://capybar.github.io/posts/2020-06-26-11ty/</id>
+		<content type="html">&lt;p&gt;I am currently on lesson 4 of &lt;a href=&quot;https://piccalil.li/course/learn-eleventy-from-scratch/&quot;&gt;Piccalilli&#39;s Learn 11ty from Scratch&lt;/a&gt;. Here&#39;s my impressions.&lt;/p&gt;
+&lt;p&gt;As mentioned in my earlier posts, I&#39;m very new to static sites. This site uses 11ty&#39;s official &lt;a href=&quot;https://piccalil.li/course/learn-eleventy-from-scratch/&quot;&gt;base theme&lt;/a&gt; and because I didn&#39;t really know what I was doing (you can read this in one of my earlier blogs) I took forever to deploy the site. The portfolio portion of this blog uses plain ol HTML because I don&#39;t know how  yaml works. But not for long!&lt;/p&gt;
+&lt;p&gt;I&#39;m only on lesson 4 and already I&#39;ve learned so much! Oddly enough, the information being taught is applicable to all blog systems (especially Jekyll! My nemisis!). In fact the information is even helping me understand Tumblr&#39;s new npf. Anyway, enough with the praise.&lt;/p&gt;
+&lt;h3 id=&quot;who-is-this-for%3F&quot;&gt;Who is this for? &lt;a class=&quot;direct-link&quot; href=&quot;#who-is-this-for%3F&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;So far it seems, anyone who wants a site where they get to own the content. The separation of the look from the content means it&#39;s easy to update a theme or port all your posts over from one SSG to another. Apart from &lt;a href=&quot;https://tatianamac.com/tags/Eleventy/&quot;&gt;Tatiana Mac&#39;s post&lt;/a&gt; there wasn&#39;t a good tutorial for those completely new to SSGs until this course.&lt;/p&gt;
+&lt;p&gt;This course is aimed at beginners who already have some knowledge of front end web development.&lt;/p&gt;
+&lt;p&gt;Eleventy is a Static Site Generator which is a JAMstack. JAM stands for &lt;b&gt; JavaScript, API, Markdown&lt;/b&gt; so before the tutorial, you should know a bit about what&#39;s essential in JAMstack:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JSON&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;CSS and specifically SASS&lt;/li&gt;
+&lt;li&gt;Markdown&lt;/li&gt;
+&lt;li&gt;The command line&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A stumbling block I ran into is .gitignore&#39;s extension is .text. So when you create that file, save it as .gitignore. I didn&#39;t know that and so left it with no extension.&lt;/p&gt;
+&lt;h3 id=&quot;an-update%3A-i-%22finished%22*-the-course&quot;&gt;An update: I &amp;quot;finished&amp;quot;* the course &lt;a class=&quot;direct-link&quot; href=&quot;#an-update%3A-i-%22finished%22*-the-course&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;After lesson 18, things started to move very quickly. I was starting to get a hang  of the whole create an HTML template, then it&#39;s markdown companion and let its buddy JSON know what&#39;s up. But I had a very hard time understanding GULP. Specifically what was going on. I think I just need to reread through it.&lt;/p&gt;
+&lt;p&gt;I thought I understood CSS but as it turns out, I only understood vanilla CSS.&lt;/p&gt;
+&lt;p&gt;This:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$gorko-size-scale: (
+  &#39;300&#39;: $gorko-base-size * 0.75,
+  &#39;400&#39;: $gorko-base-size,
+  &#39;500&#39;: $gorko-base-size * 1.33,
+  &#39;600&#39;: $gorko-base-size * 1.77,
+  &#39;700&#39;: $gorko-base-size * 2.36,
+  &#39;800&#39;: $gorko-base-size * 3.15,
+  &#39;900&#39;: $gorko-base-size * 4.2,
+  &#39;major&#39;: $gorko-base-size * 5.6
+);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;confused me. What does the dollar sign mean? Are these variables nested within variables?&lt;/p&gt;
+&lt;p&gt;Without an understanding of SASS I didn&#39;t really know what I was doing. I didn&#39;t completely understand the previous lessons either but I got an overall general idea and Andy Bell gave me enough knowledge and resources that I was confident I could fidget around with the files to understand how things worked.&lt;/p&gt;
+&lt;p&gt;But if the course was any more in depth it&#39;d probably be 400 lessons instead of 31. That said &lt;a href=&quot;https://scotch.io/tutorials/getting-started-with-sass&quot;&gt;I&#39;m now learning SASS&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;in-conclusion&quot;&gt;In Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;#in-conclusion&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You should take this course even if you know nothing about web development. Learning Andy Bell&#39;s thought process alone makes the course worth it.&lt;/p&gt;
+&lt;p&gt;As mentioned a few times on this site, I design Tumblr themes. And I tend to design them directly in the native Theme editor with nary a planning.&lt;/p&gt;
+&lt;p&gt;This course showed me why I should plan. Bell did an amazing job emphasizing how modular the system we&#39;re creating was. He&#39;s so organized, it got me really thinking about how messed up my development process and how I have quite a lot to learn (this is a great thing!).&lt;/p&gt;
+&lt;p&gt;*it&#39;s in quotations because the 6+ is absolutely true. There&#39;s so much packed in here. I&#39;m really taking the time to carefully read through the code and also go back through some of the lessons.&lt;/p&gt;
 </content>
 	</entry>
 </feed>

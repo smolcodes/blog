@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Noto+Serif:ital@1&family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@200&display=swap');
 :root {
   --light-tan:hsla(32, 100%, 90%);
@@ -177,12 +176,16 @@ img:after {
   padding-top:15%;
 }
 #posts a[href] {
-  box-shadow:inset 0px -20px 0px hsl(0, 100%, 85%);
+  box-shadow:inset 0px -20px 0px hsl(0, 100%, 90%);
   font-weight:bold;
   transition: 2s;
 }
 #posts a[href]:hover {
   box-shadow:inset 0px -30px 0px var(--dark-tan);
+}
+.tmpl-post #posts p a, .tmpl-post #posts p i {
+  font-family: 'Lora', serif;
+  color: var(--darkgrey);
 }
 .tmpl-post #posts p {
   width:67%;
@@ -203,6 +206,12 @@ img:after {
   margin:5% 0%;
   padding:5%;
   color: var(--dark-purple);
+}
+#posts blockquote {
+  border-left: 8px solid var(--dark-tan);
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  padding-left:30px;
 }
 #posts ul {
   list-style: none;
