@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Noto+Serif:ital@1&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@200&display=swap');
 :root {
@@ -143,35 +143,6 @@ img:after {
   content:'';
   box-shadow: 0px 5px 65px 30px var(--dark-tan);
 }
-#skills {
-  display:flex;
-  justify-content:flex-start;
-}
-#skills header:after {
-  content:'♡';
-  margin-left:15px;
-  color:hsl(0, 100%, 68%);
-  font-size:30px;
-}
-#skills ul {
-  list-style-type:none;
-  width:30%;
-  background-color:hsl(240, 100%, 95%);
-  border-radius:5px;
-  padding:1%;
-  margin:2%;
-}
-#skills ul:nth-child(2){
-  background-color:hsl(240, 100%, 92%);
-}
-#skills ul:nth-child(3){
-  background-color:hsl(240, 100%, 88%);
-}
-#skills ul li:before {
-  content:'☆';
-  margin-right:15px;
-  color:hsl(0, 100%, 78%);
-}
 #posts {
   padding-top:15%;
 }
@@ -184,8 +155,11 @@ img:after {
   box-shadow:inset 0px -30px 0px var(--dark-tan);
 }
 .tmpl-post #posts p a, .tmpl-post #posts p i {
-  font-family: 'Lora', serif;
+  font-family: 'Fanwood Text', serif;
   color: var(--darkgrey);
+  font-size:26px;
+  font-style:italic;
+  font-weight: 400;
 }
 .tmpl-post #posts p {
   width:67%;
@@ -209,8 +183,10 @@ img:after {
 }
 #posts blockquote {
   border-left: 8px solid var(--dark-tan);
-  font-family: 'Noto Serif', serif;
+  font-family: 'Fanwood Text', serif;
   font-style: italic;
+  font-size:30px;
+  line-height:normal;
   padding-left:30px;
 }
 #posts ul {

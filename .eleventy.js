@@ -48,6 +48,13 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
 
+  eleventyConfig.addCollection('featuredWork', collection => {
+    return collection
+      .getFilteredByGlob('./work/*.md')
+      .sort((a, b) => (Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1))
+      .filter(x => x.data.featured);
+  });
+
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
 
