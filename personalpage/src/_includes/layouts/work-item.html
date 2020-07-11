@@ -1,0 +1,50 @@
+{% extends "layouts/base.html" %}  
+{% block content %}
+<section class="work-item">
+  <header class="hero">
+    <div class="view-width">
+        <h2 class="h2-header">
+         <span> {{ title }} </span>
+        </h2>
+        <p class="measure-short">{{ summary }}</p>
+    </div>
+    <img src="{{ hero.image }}" alt="{{ hero.imageAlt }}" class="hero__image" />
+  </header>
+  <article class="view-width key-facts">
+   <div class="work-caption">
+      <h2 class="headline" data-highlight="secondary">Key facts</h2>
+        <ol class="key-facts-list">
+          {% for item in keyFacts %}
+            <li class="flow flow-space-300">
+              <span class="primary"
+                >{{ item.primary }}</span
+              >
+              <span class="secondary">{{ item.secondary }}</span>
+            </li>
+          {% endfor %}
+        </ol>
+        </div>
+        {{ content | safe }}
+  </article>
+  <div class="wrapper">
+    <article id="work-item" class="[ gallery ] [ flow flow-space-800 ]">
+      {% for item in gallery %}
+        <figure class="gallery-item">
+            <img src="{{ item.image }}" alt="" aria-hidden="true" class="radius" />
+          <figcaption class="work-caption">
+            <h2 class="[ gallery__heading ] [ text-700 md:text-900 ]">
+              {{ item.title }}
+            </h2>
+            <p class="[ gallery__summary ] [ measure-short flow-space-300 ]">
+              {{ item.summary }}
+            </p>
+          </figcaption>
+        </figure>
+      {% endfor %}
+    </article>
+  </div>
+</section>
+
+{% include "partials/cta.html" %} 
+
+{% endblock %}

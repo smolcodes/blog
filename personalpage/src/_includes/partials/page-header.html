@@ -1,0 +1,12 @@
+<div class="view-width" id="posts">
+  <div class="[ wrapper ] [ flow ]">
+    <h2 class="h2-header">
+      <span>{{ pageHeaderTitle }}</span>
+    </h2>
+    {% if pageHeaderSummary %}
+    <div class="page-content">
+      {{ pageHeaderSummary | safe }}
+    </div>
+    {% endif %}
+  </div>
+</div>

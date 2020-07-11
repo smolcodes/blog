@@ -1,0 +1,22 @@
+<div class="[ dot-shadow panel ] [ bg-secondary-glare ]" id="posts">
+  <div class="[ wrapper ] [ flow flow-space-700 ]">
+    {% if postListHeadline %}
+    <h2 class="h2-header">
+     <span> {{ postListHeadline }}</span>
+    </h2>
+    {% endif %}
+    <div class="view-width">
+      <ol class="post-list">
+        {% for item in postListItems %}
+        <li class="post-list__item">
+          <a href="{{ item.url }}" class="post-list-link">{{ item.data.title }}</a>
+          <time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
+          <p>{{ item.data.description }}
+          {% set pageHeaderSummary %}
+{% endset %}
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+</div>

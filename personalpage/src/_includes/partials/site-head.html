@@ -1,0 +1,16 @@
+<a class="visually-hidden" href="#main-content">Skip to content</a>
+<header role="banner" class="site-head">
+  <div class="wrapper">
+    <div class="view-width">
+       <nav id="navbar">
+      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+         <span><a href="/">{{ title }}</a></span>
+      <ul>
+      {%- for entry in collections.all | eleventyNavigation %}
+        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+      {%- endfor %}
+      </ul>
+  </nav>
+    </div>
+  </div>
+</header>

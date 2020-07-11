@@ -1,0 +1,25 @@
+{% set assetHash = global.random() %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {% include "partials/meta-info.html" %}
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+  </head>
+  <body>
+    <div class="site-wrap">
+      {% include "partials/site-head.html" %}
+      <main tabindex="-1" id="main-content" {% if eleventyNavigation.key %} class="{{ eleventyNavigation.key }}"{% endif %}>
+        {% block content %}{% endblock %}
+      </main>
+      <footer role="contentinfo" class="site-foot view-width">
+        <div class="wrapper">
+          <p>Made with ☕ . <a href="/colophon">Colophon</a>.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
