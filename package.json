@@ -1,23 +1,23 @@
 {
-  "name": "Smol Codes",
+  "name": "smolcodes",
   "version": "2.0.0",
-  "description": "",
+  "description": "personal sight of rachel b web designer",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx gulp && concurrently 'npx gulp watch' 'npx eleventy --serve'",
-    "production": "NODE_ENV=production npx gulp && NODE_ENV=production eleventy"
+    "start": "npx eleventy --serve",
+    "production": "NODE_ENV=production eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hankchizljaw/eleventy-from-scratch.git"
+    "url": "git+https://github.com/capybar/blog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hankchizljaw/eleventy-from-scratch/issues"
+    "url": "https://github.com/capybar/blog/issues"
   },
-  "homepage": "https://github.com/hankchizljaw/eleventy-from-scratch#readme",
+  "homepage": "https://github.com/capybar/blog/#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-cache-assets": "^2.0.2",
