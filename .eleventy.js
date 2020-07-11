@@ -1,4 +1,3 @@
-const isProduction = process.env.NODE_ENV === `production`;
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 

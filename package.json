@@ -4,8 +4,10 @@
   "description": "personal sight of rachel b web designer",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve",
-    "production": "NODE_ENV=production eleventy"
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
   },
   "repository": {
     "type": "git",
