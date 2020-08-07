@@ -16,4 +16,11 @@ keyFacts:
   - primary: 'Design Tools'
     secondary: 'Pen and paper'
 ---
-I worked days and nights. Basically all the time. And legit, doesn't even show. SMH.
+I create templates for the popular microblogging site Tumblr. These templates offer many 
+customization options so the user doesn't need to need to know any coding skills to taylor
+a template to their personal taste.
+
+Most of these templates are free, responsive, have a commenting system and are SEO friendly.
+The newer templates are also accessible.
+
+[Visit Site](https://smolthemes.tumblr.com/)
