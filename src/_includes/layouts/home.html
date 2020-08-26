@@ -6,8 +6,8 @@
   <div class="header-image">
   <img src="/images/icons/cat%20icon.png">
   </div>
+   {{ content | safe }}
   </article>
- {{ content | safe }}
 {% include "partials/featured-work.html" %} 
 {% include "partials/cta.html" %} 
 {% endblock %}
