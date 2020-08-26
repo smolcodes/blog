@@ -171,7 +171,7 @@ h1 {
   padding: 2%;
 }
 .featured-work-inner img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 #intro h1 {
@@ -274,8 +274,12 @@ p code {
   z-index: -1;
   margin-bottom: -5%;
 }
-.hero-image {
+.hero_image {
   z-index: 0;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: -5%;
+  margin-top: 2%;
 }
 .gallery-item {
   display: flex;
