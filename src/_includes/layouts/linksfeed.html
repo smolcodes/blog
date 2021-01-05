@@ -1,0 +1,21 @@
+{% extends "layouts/base.html" %}
+{% set pageHeaderTitle = title %} 
+{% set pageHeaderSummary = content %} 
+{% block content %}
+  <article id="about" class="view-width">
+    {% include "partials/page-header.html" %} 
+  </article>
+<section id="featured-boxes" class="uk-section">
+       {% for item in collections.socialLinks %}
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body item">
+        <h2 class="uk-card-title">
+          {{ item.data.title }}
+        </h2>
+        <p>
+          {{ item.data.summary }}
+        </p>
+        <a href="{{ item.data.linkURL }}">Let's go 👉</a>
+          </div>
+      {% endfor %}
+</section>
+{% endblock %}

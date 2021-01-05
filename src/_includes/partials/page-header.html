@@ -1,12 +1,14 @@
-<div class="view-width" id="posts">
-  <div class="[ wrapper ] [ flow ]">
-    <h2 class="h2-header">
-      <span>{{ pageHeaderTitle }}</span>
-    </h2>
+    <header id="header" class="uk-section">
+     <div class="header_content">
+     <div class="id_card">
+     <div class="image_id"></div>
+     <a href="/">← Home</a>
+     </div>
+    <h1 class="header_title uk-heading-large">
+      {{ pageHeaderTitle }}
+    </h1>
     {% if pageHeaderSummary %}
-    <div class="page-content">
       {{ pageHeaderSummary | safe }}
-    </div>
     {% endif %}
-  </div>
-</div>
+    </div>
+</header>

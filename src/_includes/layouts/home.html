@@ -1,13 +1,10 @@
 {% extends "layouts/base.html" %}
+{% set pageHeaderTitle = title %} 
+{% set pageHeaderSummary = content %} 
 {% block content %}
-  <article class="view-width" id="intro">
-   <h1>{{ intro.greeting }}</h1>
-  <p>{{ intro.summary }}</p>
-  <div class="header-image">
-  <img src="/images/icons/cat%20icon.png">
-  </div>
+    <article id="about" class="view-width">
+    {% include "partials/page-header.html" %} 
    {{ content | safe }}
+   {% include "partials/featured-work.html" %} 
   </article>
-{% include "partials/featured-work.html" %} 
-{% include "partials/cta.html" %} 
 {% endblock %}

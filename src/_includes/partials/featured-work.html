@@ -1,34 +1,17 @@
-<article class="featured-work">
-  <div class="wrapper">
-    <div class="view-width">
-        <h2
-          class="h2-header"
-          data-highlight="dark"
-        >
-          <span>{{ featuredWork.title }}</span>
+<section id="featured-boxes" class="uk-section">
+       {% for item in collections.featuredWork %}
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body item">
+      <img class="featured-image" src="{{ item.data.imageURL }}">
+      <div class="featured-content">
+        <h2 class="uk-card-title">
+          {{ item.data.title }}
         </h2>
-        <p class="[ featured-work__summary ] [ measure-compact ]">
-          {{ featuredWork.summary }}
+        <p>
+         <b>Completed: </b>{{ item.data.completed }} <b>Tools</b> {{ item.data.tools}}
         </p>
-      </div>
-    <div class="featured-work-inner">
-      {% for item in collections.featuredWork %}
-      <a
-        href="{{ item.url }}"
-        aria-label="See {{ item.data.title }}"
-        data-frame="quaternary"
-      >
-        <img
-          src="{{ item.data.hero.image }}"
-          alt="{{ item.data.hero.imageAlt }}"
-          loading="lazy"
-          class="radius"
-        />
-      </a>
+        <p>{{ item.data.summary }}</p>
+        <a href="{{ item.url }}">Read 👉</a>
+        </div>
+          </div>
       {% endfor %}
-    </div>
-    <div class="featured-work-button view-width">
-      <a href="/work/" class="button">See more work</a>
-    </div>
-  </div>
-</article>
+</section>

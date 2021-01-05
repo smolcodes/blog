@@ -1,6 +1,6 @@
 {
   "title": "Droop a Line ⚓",
-  "summary": "Want to discuss the perfect website for you? Or coffee? Either or both, let's talk 😃",
+  "summary": "Want to discuss the perfect website for you? Or coffee? Either or both, let's talk 😃.",
   "buttonText": "Contact",
-  "buttonUrl": "/contact/"
+  "buttonUrl": "https://smolcodes.netlify.app/contact/"
 }

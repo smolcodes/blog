@@ -3,23 +3,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/meta-info.html" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
+<!--FitVid-->
+<script src="https://raw.githubusercontent.com/davatron5000/FitVids.js/master/jquery.fitvids.js"></script>
+<!-- Netlify CMS -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<!-- Highligh.js -->
+<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
-  <body>
-    <div class="site-wrap">
-      {% include "partials/site-head.html" %}
-      <main tabindex="-1" id="main-content" {% if eleventyNavigation.key %} class="{{ eleventyNavigation.key }}"{% endif %}>
+  <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}">
+    <main tabindex="-1" id="main">
+      <div id="side">
+    <a class="sr-only" href="#main">Skip to main content</a>
+    {% include "partials/sidebar.html" %}
+    </div> 
+    <div class="blog_content">
         {% block content %}{% endblock %}
-      </main>
-      <footer role="contentinfo" class="site-foot view-width">
-        <div class="wrapper">
+                 {% include "partials/cta.html" %} 
+      <footer role="contentinfo" class="uk-section">
+       <center>
           <p>Made with ☕ . <a href="/colophon">Colophon</a>.</p>
-        </div>
+          </center>
       </footer>
-    </div>
+        </div>
+</main>
+     <script>
+      $(".post").fitVids();
+      $('iframe[src*="youtube"]').parent().fitVids();
+          hljs.initHighlightingOnLoad();
+             if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+    </script>
   </body>
 </html>

@@ -1,0 +1,23 @@
+{% extends "layouts/base.html" %}
+{% set pageHeaderTitle = title %} 
+{% set pageHeaderSummary = content %} 
+{% block content %}
+  {% include "partials/page-header.html" %}
+<section id="featured-boxes" class="uk-section">
+       {% for item in collections.work %}
+     <div class="uk-card uk-card-default uk-card-hover uk-card-body item">
+      <img class="featured-image" src="{{ item.data.imageURL }}">
+      <div class="featured-content">
+        <h2 class="uk-card-title">
+          {{ item.data.title }}
+        </h2>
+        <p>
+         <b>Completed: </b>{{ item.data.completed }} <b>Tools</b> {{ item.data.tools}}
+        </p>
+        <p>{{ item.data.summary }}</p>
+        <a href="{{ item.url }}">Read 👉</a>
+        </div>
+          </div>
+      {% endfor %}
+</section>
+{% endblock %}

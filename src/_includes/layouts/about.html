@@ -1,12 +1,10 @@
 {% extends "layouts/base.html" %} 
 
 {% set pageHeaderTitle = title %} 
-{% set pageHeaderSummary = content %} 
 
 {% block content %}
-  <article id="about" class="view-width">
     {% include "partials/page-header.html" %} 
-  </article>
-
-  {% include "partials/cta.html" %} 
+      <div  class="uk-section post">
+    {{ content | safe }}
+    </div>
 {% endblock %}

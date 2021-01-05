@@ -1,16 +1,23 @@
-<a class="visually-hidden" href="#main-content">Skip to content</a>
-<header role="banner" class="site-head">
-  <div class="wrapper">
-    <div class="view-width">
-       <nav id="navbar">
+<nav id="nav-menu"  class="uk-navbar-container" uk-navbar>
+        <ul class="uk-navbar-nav">
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-         <span><a href="/">{{ title }}</a></span>
-      <ul>
+         <li><a href="/">Home</a></li>
+          <li> <a href="#">Pages</a>
+                          <div class="uk-navbar-dropdown">
+                           <ul class="uk-nav uk-navbar-dropdown-nav">
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
+              </ul>
+            </div>
+           </li>
+               <li> <a href="#">Tags</a>
+                          <div class="uk-navbar-dropdown">
+                           <ul class="uk-nav uk-navbar-dropdown-nav">
+        <li><a href="/tag/java">Java</a></li>
+        <li><a href="/tag/pandemic-journal/">Pandemic Journal</a></li>
+              </ul>
+            </div>
+           </li>
       </ul>
   </nav>
-    </div>
-  </div>
-</header>

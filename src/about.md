@@ -7,10 +7,6 @@ eleventyNavigation:
   order: 5
 ---
 
->  To Love Another Person is to see the Face of God
-
-Probably the first thing you ought to know about me is that Les Miserables is my favorite musical.
-
 <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFfRY7jUxA8sA/profile-displayphoto-shrink_200_200/0?e=1611792000&v=beta&t=RMFAKsNf23va6Kd2PBSIr90Lx8le3-UXP2zPwp1uS-Q" width="200" alt="self portrait"
 style="float: left; margin-right: 30px; margin-bottom: 20px; box-shadow: 10px 10px var(--dark-tan), -10px -10px var(--dark-purple);">
 

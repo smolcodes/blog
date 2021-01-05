@@ -1,6 +1,6 @@
 ---
 title: 'A Few of My Works'
-layout: 'layouts/work-landing.html'
+layout: 'layouts/workfeed.html'
 eleventyNavigation:
   key: Work
   order: 4

@@ -2,15 +2,8 @@
 {% if ctaContent %} 
   {% set ctaPrefix = ctaContent %}
 {% endif %}
-
-<article class="cta">
-  <div class="wrapper view-width">
-    <div class="[ cta__inner ] [ flow ]">
-      <h2 class="[ cta__heading ] [ headline ]" data-highlight="quaternary">{{ ctaPrefix.title }}</h2>
-      <p class="[ cta__summary ] [ measure-short ]">{{ ctaPrefix.summary }}</p>
-      <div class="cta__action">
-        <a class="button" data-variant="ghost" href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>
-      </div>
-    </div>
-  </div>
-</article>
+<div class="cta">
+      <h2  data-highlight="quaternary">{{ ctaPrefix.title }}</h2>
+      <p>If you like my work, <a href="https://ko-fi.com/softthemes">consider buying me a ☕ coffe</a>{{ ctaPrefix.summary }}</p>
+        <a  href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>
+</div>

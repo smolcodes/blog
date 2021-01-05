@@ -7,7 +7,8 @@
     "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
-    "debug": "DEBUG=* eleventy"
+    "debug": "DEBUG=* eleventy",
+    "build:css": "tailwind build src/css/index.css -o dist/css/index.css "
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,8 @@
     "@11ty/eleventy-cache-assets": "^2.0.2",
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
     "concurrently": "^5.2.0",
     "fs": "0.0.1-security",
     "get-google-fonts": "^1.2.2",
@@ -35,6 +38,8 @@
     "gulp-sass": "^4.1.0",
     "html-minifier": "^4.0.0",
     "moment": "^2.27.0",
-    "sass": "^1.26.8"
+    "postcss": "^7.0.35",
+    "sass": "^1.26.8",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   }
 }
