@@ -514,3 +514,8 @@ blockquote q:before {
     border: 2px solid var(--post-text-color);
   }
 }
+@media only screen and (max-width: 600px) {
+ #side {
+    display: none;
+    }
+    }
