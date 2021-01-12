@@ -15,12 +15,9 @@
 {% endset %}
 {% block content %}
     {% include "partials/page-header.html" %}
-        <section class="uk-section post">
-    <article class="uk-article">
+    <article class="post">
       {{ content | safe }}
       </article>
-      <div id="hyvor-talk-view"></div>
-      </section>
     {% if recommendedPosts %}
       <footer class="recommended-posts">
         {% set postListItems = recommendedPosts %}

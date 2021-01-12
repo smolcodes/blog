@@ -5,8 +5,10 @@
   {% include "partials/page-header.html" %}
 <section id="featured-boxes" class="uk-section">
        {% for item in collections.work %}
-     <div class="uk-card uk-card-default uk-card-hover uk-card-body item">
+     <div class="item">
+     <figure class="featured-image">
       <img class="featured-image" src="{{ item.data.imageURL }}">
+      </figure>
       <div class="featured-content">
         <h2 class="uk-card-title">
           {{ item.data.title }}

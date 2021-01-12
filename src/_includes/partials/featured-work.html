@@ -1,7 +1,9 @@
 <section id="featured-boxes" class="uk-section">
        {% for item in collections.featuredWork %}
       <div class="uk-card uk-card-default uk-card-hover uk-card-body item">
-      <img class="featured-image" src="{{ item.data.imageURL }}">
+      <figure class="featured-image">
+      <img src="{{ item.data.imageURL }}">
+      </figure>
       <div class="featured-content">
         <h2 class="uk-card-title">
           {{ item.data.title }}
