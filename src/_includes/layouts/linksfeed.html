@@ -4,18 +4,18 @@
 {% block content %}
   <article id="about" class="view-width">
     {% include "partials/page-header.html" %} 
-  </article>
-<section id="featured-boxes" class="uk-section">
+       <div id="social-list">
        {% for item in collections.socialLinks %}
-      <div class="uk-card uk-card-default uk-card-hover uk-card-body item">
+      <a href="{{ item.data.linkURL }}">
         <h2 class="uk-card-title">
           {{ item.data.title }}
         </h2>
         <p>
           {{ item.data.summary }}
+          <span class="arrow">→</span>
         </p>
-        <a href="{{ item.data.linkURL }}">Let's go 👉</a>
-          </div>
+        </a>
       {% endfor %}
-</section>
+         </div>
+        </article>
 {% endblock %}

@@ -1,21 +1,25 @@
-    <section class="uk-section">
+  <section id="featured-boxes" class="uk-section">
         {% if postListHeadline %}
     <h2 class="post-rec">
       {{ postListHeadline }}
     </h2>
     {% endif %}
-      <ol class="post-list ">
         {% for item in postListItems %}
-        <li class="post-list__item">
+           <div class="item">
+       <figure class="featured-image">
+      <img src="{{ item.data.imageURL }}">
+      </figure>
+         <div class="featured-content">
         <time style="font-size: 12px; font-family: Calibri;" datetime="{{ item.data.date }}">
         🕒 {{ item.data.date | dateFilter }}</time>
-          <h2><a href="{{ item.url }}" class="post-list-link">{{ item.data.title }}</a></h2>
+          <h2>{{ item.data.title }}</h2>
           <p>{{ item.data.description }}</p>
+          <a href="{{ item.url }}" class="post-list-link">👉 Read More</a>
           {% set pageHeaderSummary %}
 {% endset %}
-        </li>
+       </div>
+       </div>
         {% endfor %}
-      </ol>
       </section>
 
 

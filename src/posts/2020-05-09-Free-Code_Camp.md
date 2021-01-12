@@ -1,6 +1,7 @@
 ---
 title: Complexity is Sometimes the Problem
-description: 
+description: My experience with completing FreeCodeCamp's responsive web certificate
+imageURL: https://images.unsplash.com/photo-1542831371-d531d36971e6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
 date: 2020-05-09
 tags:
   ['freecodecamp']
