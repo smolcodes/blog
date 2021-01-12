@@ -20,10 +20,9 @@
   </head>
   <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}">
     <main tabindex="-1" id="main">
-      <div id="side">
-    <a class="sr-only" href="#main">Skip to main content</a>
+      <aside id="side">
     {% include "partials/sidebar.html" %}
-    </div> 
+    </aside> 
     <div class="blog_content">
         {% block content %}{% endblock %}
                  {% include "partials/cta.html" %} 
