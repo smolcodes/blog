@@ -2,9 +2,20 @@
 {% set pageHeaderTitle = title %} 
 {% set pageHeaderSummary = content %} 
 {% block content %}
-    <article id="about" class="view-width">
     {% include "partials/page-header.html" %} 
-   {{ content | safe }}
+    <section id="featured-boxes">
+   <h1> {{ featuredWork.title }}</h1>
+   <p> {{ featuredWork.summary }}</p>
    {% include "partials/featured-work.html" %} 
-  </article>
+     <h1> {{ skills.title }}</h1>
+   <p> {{ skills.summary }}</p>
+   <div class="skillsets">
+   {% for item in skills.subSkills %}
+   <div class="skillsItem">
+     <h2>{{ item.subskillsTitle1 }}</h2>
+     <p>{{ item.subskillsSummary }}</p>
+     </div>
+    {% endfor %}
+    </div>
+   </section>
 {% endblock %}
