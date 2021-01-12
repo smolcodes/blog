@@ -1,5 +1,5 @@
 ---
-title: '🐝 Rachel 🐝'
+title: 'Rachel'
 metaDesc: 'web designer'
 summary: 'Web Designer and maker of things on the web'
 featuredWork:
@@ -13,7 +13,7 @@ skills:
    - subskillsTitle1: 'Frameworks and CMS'
      subskillsSummary: ['11ty', 'Tumblr', 'Bootstrap', 'Foundation']
    - subskillsTitle1: 'Libraries'
-     subskillsSummary: ['UiKit']
+     subskillsSummary: ['UiKit', 'FontAwesome']
    - subskillsTitle1: 'Languages'
      subskillsSummary: ['Css3', 'Semantic HTML5']
    - subskillsTitle1: 'Testing'

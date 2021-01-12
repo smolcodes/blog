@@ -487,8 +487,12 @@ justify-content: space-between;
 }
 .post-gallery {
     display: flex;
-    width: 100%;
+    width: 700px;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 figure {
     margin: 0px;
@@ -499,7 +503,7 @@ figcaption {
 }
 .post-gallery img {
     margin: 20px;
-    width: 400px;
+    width: 300px;
     max-width: 100%;
     display: block;
     border-radius: 5px;
