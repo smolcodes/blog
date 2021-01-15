@@ -374,6 +374,7 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
     }
     #featured-boxes figure,   #featured-boxes .featured-content {
          flex: 0 1 500px;
+         width: 50%;
     }
     #featured-boxes figure img {
         width: 100%;
@@ -402,9 +403,9 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
         display: inline-block;
      }
      #social-list a {
-         margin: 2%;
+         margin: 1%;
          width: 200px;
-         max-width: 90%;
+         max-width: 100%;
          text-decoration: none;
      }
      #featured-boxes a:hover, #social-list a:hover {
@@ -568,9 +569,16 @@ blockquote q:before {
     margin: 1%;
     border: 2px solid var(--post-text-color);
   }
+  .cta {
+    width: 95%;
+    margin-top: 2%;
+}
 }
 @media only screen and (max-width: 600px) {
  #side {
     display: none;
+    }
+    #social-list a {
+        width: 175px;
     }
     }
