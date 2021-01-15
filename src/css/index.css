@@ -581,4 +581,10 @@ blockquote q:before {
     #social-list a {
         width: 175px;
     }
+    #social-list a h2 {
+        font-size: 18px;
+    }
+    #social-list a p {
+        font-size: 14px;
+    }
     }
