@@ -1,11 +1,11 @@
 {% extends "layouts/base.html" %}
 {% set pageHeaderTitle = title %} 
-{% set pageHeaderSummary = content %} 
+{% set pageHeaderSummary = summary %} 
 {% block content %}
     {% include "partials/page-header.html" %} 
     <section id="featured-boxes">
    <h1> {{ featuredWork.title }}</h1>
-   <p> {{ featuredWork.summary }}</p>
+    {{ content | safe }}
    {% include "partials/featured-work.html" %} 
      <h1> {{ skills.title }}</h1>
    <p> {{ skills.summary }}</p>

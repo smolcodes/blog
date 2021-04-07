@@ -3,21 +3,14 @@ title: CodePen Sandbox
 completed: Forever in Progress
 tools: HTML5, CSS3
 imageURL: /images/assets/codepen.png
+visitURL: https://codepen.io/smolcodes
 displayOrder: 2
-featured: true
+featured: false
 summary: Assignments from FreeCodeCamp
 layout: layouts/workpage.html
 ---
 
 I completed  FreeCodeCamp's [Responsive Web Design Certificate](https://www.freecodecamp.org/certification/capybar/responsive-web-design) while furloughed during the Pandemic and posted all of my assignments on [CodePen](https://codepen.io/smolcodes/pens/).
-
-<figure class="post-gallery">
-<img src="/images/assets/codepen2.png"/>
-<img src="/images/assets/codepen.png"/>
-<figcaption>
-Fake home page and membership join page for Animorphs
-</figcaption>
-</figure>
 
 I was obsessed with Animorphs.
 

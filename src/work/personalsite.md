@@ -3,7 +3,8 @@ title: Smol Themes
 completed: Forever in Progress
 tools: HTML5, CSS3
 imageURL: /images/assets/tumblrprev.png
-displayOrder: 1
+visitURL: https://smolthemes.tumblr.com/
+displayOrder: 2
 featured: true
 summary: Creating templates for the popular microblogging site Tumblr# 
 layout: layouts/workpage.html

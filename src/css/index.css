@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@200&display=swap');
-/* ./your-css-folder/styles.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 pre .com { color: var(---blockquote-color) } /* comment - skyblue */
 pre .pun { color:  var(---post-text-color);}    /* punctuation */
 pre .pln { color: var(---post-text-color); }    /* plaintext */
@@ -13,9 +9,7 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
         --header-bg-image: url("/images/bg/breakfast.png");
         --side-bg-image:  url("");
         --body-bg-image: url("/images/bg/contour.png");
-        --image-id: url("https://media-exp1.licdn.com/dms/image/C4E03AQFfRY7jUxA8sA/profile-displayphoto-shrink_200_200/0/1604246448737?e=1614816000&v=beta&t=PH9Am_xSkie-UjnCvUnU2LSS0aV77vh8OuFZnSoJQsw");
-        /***Colors***/
-        --body-bg-color: #EEEEEE;
+        --image-id: url("https://pbs.twimg.com/media/Dpb1UA-WsActdut?format=jpg&name=medium");
         --blockquote-color: #ffd4c3;
         --header-bg-color: hsl(229.1,21.6%,30%);
         --header-title-color:  rgba(112, 247, 235, 0.8);
@@ -139,9 +133,10 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
         position:relative;
         clear: both;
     } 
- .header_content {
-       width:100%;
-        padding:5%;     
+ .header_content,.post  {
+       width:70%;
+        padding:5%; 
+        margin: 0 auto;    
  }
  .id_card {
      display: flex;
@@ -188,6 +183,16 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
         white-space:nowrap;
         color: var(--header-title-color);
     }
+        
+    .menu-left {
+           position: fixed; /* Stay in place */
+        height: 100%; /* 100% Full-height */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+          }
     #side {
         max-width: 30%;
         font-family: var(--sidebar-text-font);
@@ -262,15 +267,13 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
        display: flex;
    }
    .skillsets {
-       display: flex;
-       flex-wrap: wrap;
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+       -ms-grid-column-align: stretch;
        justify-content:space-between;
    }
-   .skillsets div {
-       flex: 0 1 300px;
-   }
    .blog_content {
-     min-width: 70%;
+     width: 100%;
    }
    /***Single Column***/
     .post {
@@ -359,23 +362,17 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
        box-shadow:none;
     }
 #featured-boxes {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
  #featured-boxes .item {
     -moz-box-sizing: content-box;
     margin-bottom: 6%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    grid-column-gap: 50px;
 }
-    #featured-boxes .item:nth-child(odd) {
-        flex-direction: row-reverse;
-    }
-    #featured-boxes figure,   #featured-boxes .featured-content {
-         flex: 0 1 500px;
-         width: 50%;
-    }
     #featured-boxes figure img {
         width: 100%;
     }
@@ -401,6 +398,10 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
         margin-bottom: 5%;
         transition: 1s;
         display: inline-block;
+     }
+     #featured-boxes .visiturl {
+        background: var(--accent-color);
+        color: var(---post-text-color);
      }
      #social-list a {
          margin: 1%;
@@ -555,9 +556,33 @@ blockquote q:before {
     border-radius: 15px;
     font-size: 12px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 700px) {
+    button {
+        display: none;
+    }
+    .blog_content {
+        margin-left: 30%;
+    }
+    .menu-left {
+        margin-left: 0%;
+    }
+    .side {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 700px) {
 #main {
     display: block;
+}
+button {
+    display: block;
+}
+.header_content, #featured-boxes  { 
+    width: 90%;
+}
+.menu-left {
+    margin-left:-30%;
+    width: 30%;
 }
 #side {
   background-size: 250px;
@@ -575,9 +600,6 @@ blockquote q:before {
 }
 }
 @media only screen and (max-width: 600px) {
- #side {
-    display: none;
-    }
     #social-list a {
         width: 175px;
     }

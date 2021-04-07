@@ -17,7 +17,7 @@
          <b>Completed: </b>{{ item.data.completed }} <b>Tools</b> {{ item.data.tools}}
         </p>
         <p>{{ item.data.summary }}</p>
-        <a href="{{ item.url }}">Read 👉</a>
+        <a href="{{ item.data.visitURL }}">Visit →</a> <a class="visiturl" href="{{ item.url }}">Read 👉</a>
         </div>
           </div>
       {% endfor %}

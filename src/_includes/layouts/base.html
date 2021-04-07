@@ -20,7 +20,7 @@
   </head>
   <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}">
     <main tabindex="-1" id="main">
-      <aside id="side">
+      <aside id="side" class="menu-left">
     {% include "partials/sidebar.html" %}
     </aside> 
     <div class="blog_content">
@@ -33,19 +33,27 @@
       </footer>
         </div>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
      <script>
-      $(".post").fitVids();
-      $('iframe[src*="youtube"]').parent().fitVids();
-          hljs.initHighlightingOnLoad();
-             if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
+    function openNav() {
+  if ($(window).width()<=700) {
+    document.getElementById("side").style.width = "100%";
+  }
+  else {
+    document.getElementById("side").style.width = "30%";
+  }
+      document.getElementById("side").style.marginLeft = "0%";
+  document.getElementById("main").style.marginLeft = "30%";
+}
+function closeNav() {
+   if ($(window).width()<=700) {
+   document.getElementById("side").style.marginLeft = "-100%";
+   }
+  else {
+       document.getElementById("side").style.marginLeft = "-30%";
+  }
+   document.getElementById("main").style.marginLeft= "0%";
+}
     </script>
   </body>
 </html>
