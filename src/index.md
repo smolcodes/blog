@@ -18,6 +18,8 @@ skills:
    - subskillsTitle1: 'Tools'
      subskillsSummary: ['VSCode', 'Github', 'Webflow', 'Netlify']
 layout: 'layouts/home.html'
+data: collections.blog
+size: 2
 eleventyNavigation:
   key: Home
   order: 1

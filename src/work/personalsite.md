@@ -5,7 +5,7 @@ tools: HTML5, CSS3
 imageURL: /images/assets/tumblrprev.png
 visitURL: https://smolthemes.tumblr.com/
 displayOrder: 2
-featured: true
+featured: false
 summary: Creating templates for the popular microblogging site Tumblr# 
 layout: layouts/workpage.html
 ---

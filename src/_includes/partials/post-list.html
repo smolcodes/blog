@@ -1,4 +1,3 @@
-  <section id="featured-boxes" class="uk-section">
         {% if postListHeadline %}
     <h2 class="post-rec">
       {{ postListHeadline }}
@@ -15,11 +14,8 @@
           <h2>{{ item.data.title }}</h2>
           <p>{{ item.data.description }}</p>
           <a href="{{ item.url }}" class="post-list-link">👉 Read More</a>
-          {% set pageHeaderSummary %}
-{% endset %}
        </div>
        </div>
         {% endfor %}
-      </section>
 
 

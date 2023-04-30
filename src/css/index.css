@@ -29,7 +29,7 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
         --answer-bg-color: #f8dcb3;
         --ask-bg-color: #febd80;
         /***Fonts***/
-        --header-title-font:'Londrina Outline', cursive;
+        --header-title-font:'Palanquin', sans-serif;
         --header-sub-font: 'Open Sans', sans-serif;
         --sidebar-title-font: 'Fanwood Text', serif;
         --sidebar-text-font: 'Palanquin', sans-serif;
@@ -134,7 +134,7 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
         clear: both;
     } 
  .header_content,.post  {
-       width:70%;
+       width:90%;
         padding:5%; 
         margin: 0 auto;    
  }
@@ -156,19 +156,9 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
     color: var(--post-text-color);
     box-shadow: inset 0 -30px 0 0 var(--post-link-hover-color);
 }
- .image_id {
-     height: 65px;
-     width: 65px;
-     border-radius: 50%;
-     border: 2px solid var(--header-title-color);
-     background: var(--image-id);
-     background-size: 65px;
-     margin-right: 65px;
- }
     #header h1 {
         font-family: var(--header-title-font);
         color: var(--header-title-color);
-        overflow:hidden;
         text-transform:uppercase;
         text-shadow: 1px 1px var(--header-title-color),
                      2px 2px var(--header-title-color),
@@ -180,7 +170,6 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
         animation: grow 2s steps(22,end);
         letter-spacing:14px;
         text-align:left;
-        white-space:nowrap;
         color: var(--header-title-color);
     }
         
@@ -260,8 +249,8 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
        background-image: url(https://static.tumblr.com/r4e6ztn/sLvqe8kk6/coffee.png);
        background-attachment: fixed;
        background-repeat: no-repeat;
-       background-size: 35%;
-       background-position: 95% 106%;
+       background-size: 25%;
+       background-position: 95% 100%;
    }
    #main {
        display: flex;
@@ -270,7 +259,9 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
        display: grid;
        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
        -ms-grid-column-align: stretch;
+       gap: 10%;
        justify-content:space-between;
+       margin-bottom: 20%;
    }
    .blog_content {
      width: 100%;
@@ -362,7 +353,7 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
        box-shadow:none;
     }
 #featured-boxes {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
  #featured-boxes .item {
@@ -468,6 +459,9 @@ justify-content: space-between;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
+footer p {
+    text-align: center;
+}
 /***Components for in post***/
 .arrow {
     font-weight: bolder;
@@ -563,6 +557,9 @@ blockquote q:before {
     .blog_content {
         margin-left: 30%;
     }
+    .post p, pre, .post blockquote {
+        width: 90%;
+    }
     .menu-left {
         margin-left: 0%;
     }
@@ -588,6 +585,10 @@ button {
   background-size: 250px;
   background-position: 90% 50%;
   max-width: 100%;
+}
+.post p, pre, .post blockquote {
+    min-width: 50%;
+    width: 90%;
 }
 .post-list li {
     width: 90%;

@@ -1,12 +1,30 @@
 {% extends "layouts/base.html" %}
 {% set pageHeaderTitle = title %} 
 {% set pageHeaderSummary = summary %} 
+{% set postListItems = collections.blog %}
 {% block content %}
     {% include "partials/page-header.html" %} 
     <section id="featured-boxes">
    <h1> {{ featuredWork.title }}</h1>
     {{ content | safe }}
    {% include "partials/featured-work.html" %} 
+   <h1>Some Writing ✏️</h1>
+   <p>The occasional post</p>
+{% for item in postListItems %}
+   <div class="item">
+<figure class="featured-image">
+<img src="{{ item.data.imageURL }}">
+</figure>
+ <div class="featured-content">
+<time style="font-size: 12px; font-family: Calibri;" datetime="{{ item.data.date }}">
+🕒 {{ item.data.date | dateFilter }}</time>
+  <h2>{{ item.data.title }}</h2>
+  <p>{{ item.data.description }}</p>
+  <a href="{{ item.url }}" class="post-list-link">👉 Read More</a>
+</div>
+</div>
+{% endfor %}
+
      <h1> {{ skills.title }}</h1>
    <p> {{ skills.summary }}</p>
    <div class="skillsets">
